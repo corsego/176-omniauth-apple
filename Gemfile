@@ -67,3 +67,6 @@ group :test do
 end
 
 gem "devise", "~> 4.9"
+# gem 'omniauth-apple'
+gem 'omniauth-apple', github: 'bvogel/omniauth-apple', branch: 'fix/apple-session-handling'
+gem 'omniauth-rails_csrf_protection'
